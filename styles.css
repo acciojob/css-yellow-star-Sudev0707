@@ -4,23 +4,22 @@ body {
 }
 
 .star {
-  position: relative;
   width: 0;
   height: 0;
-  margin: 20px;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
-  border-bottom: 130px solid #f1f143;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid yellow;
+  position: relative;
 }
 
 .star::after {
   content: "";
   position: absolute;
-  top: 43px;
-  left: -75px;
+  left: -50px;
+  top: 33px;
   width: 0;
   height: 0;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
-  border-top: 130px solid #f1f143;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid yellow;
 }
